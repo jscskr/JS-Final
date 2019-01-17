@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/write_board"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableStart="@drawable/ic_create_black_24dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="게시글 작성" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="메시지" />
+    </LinearLayout>
+
+</FrameLayout>

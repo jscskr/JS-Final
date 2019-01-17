@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hommy"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="home"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/user_profile"
+        android:title="user"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="upload"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+    android:id="@+id/configure"
+    android:icon="@drawable/configure"
+    android:title="configure"
+    app:showAsAction="ifRoom"
+    />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="search"
+        app:showAsAction="ifRoom"
+        />
+    
+
+</menu>

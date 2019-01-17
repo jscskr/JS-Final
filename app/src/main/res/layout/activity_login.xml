@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:context=".LoginActivity"
+        android:padding="35dp"
+        >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <EditText
+            android:id="@+id/input_login_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email"
+            android:ems="10"
+            android:hint="아이디"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/input_login_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_password"
+            android:ems="10"
+            android:hint="비밀번호 : 최소 6글자"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        >
+
+    <Button
+        android:id="@+id/btn_login_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3DAEC"
+        android:text="로그인" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
